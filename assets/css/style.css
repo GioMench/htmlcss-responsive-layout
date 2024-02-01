@@ -48,7 +48,20 @@
 }
 
 .column{
+    display: flex;
+    flex-direction: column;
     margin: 0 -1rem;
+    align-items: center;
+}
+
+.card-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-row{
+
 }
 
 /*REGION SITE_HEADER*/
@@ -75,7 +88,25 @@
     font-size: 1.5rem;
 }
 /* END REGION SITE_HEADER*/
+/*REGION SITE_FOOTER*/
 
+.foot{
+    font-size: small;
+    color: var(--re-lighter);
+    background-color: var(--re-dark);
+}
+
+
+
+.boolean-careers{
+    color: var(--re-secondary);
+    padding: 1rem;
+}
+
+.lorem-footer{
+    text-align: center;
+    padding: 1rem;
+}
 
 /* RESPONSIVE */
 
