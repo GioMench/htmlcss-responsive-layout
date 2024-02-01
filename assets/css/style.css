@@ -27,6 +27,21 @@
     margin: 0 -1rem;
 }
 
+.col-4{
+    width: calc((100% / 12) *4);
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-8{
+    width: calc((100% / 12) *8);
+}
+
+.col-12{
+    width: 100%;
+}
 
 /*REGION SITE_HEADER*/
 
