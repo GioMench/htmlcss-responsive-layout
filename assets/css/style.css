@@ -28,6 +28,29 @@
 }
 
 
+/*REGION SITE_HEADER*/
+
+.menu-color{
+    background-color: var(--re-acent);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.fa-bars{
+    color: var(--re-lighter);
+    font-size: 1.5rem;
+}
+
 
 
 /* RESPONSIVE */
