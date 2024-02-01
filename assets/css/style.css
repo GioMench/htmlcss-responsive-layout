@@ -5,6 +5,16 @@
 }
 
 /*REGION UTILITY*/
+
+:root{
+    --re-acent: #0184fc;
+    --re-primary:#b5dcfe;
+    --re-secondary: #9792e4;
+    --re-lighter: #ffffff;
+    --re-free:#f9bf65;
+    --re-dark:#323332;
+}
+
 .container{
     width: 80%;
     max-width: 1176px;
@@ -15,4 +25,23 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+
+@media  screen and (min-width: 992px) {
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    
 }
