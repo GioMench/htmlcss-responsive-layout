@@ -81,6 +81,9 @@ body {
 
 p {
     font-size: small;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
 }
 
 img {
@@ -89,17 +92,12 @@ img {
 
 .text-gray {
     color: var(--re-text);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    line-height: 1.5rem;
 }
 
 .text-white{
     color: var(--re-lighter);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    line-height: 1.5rem;
 }
+
 /*REGION SITE_HEADER*/
 
 .menu-color {
@@ -252,6 +250,13 @@ img {
     .phone{
         padding-bottom:0;
     }
+
+    .strategic-row{
+        display: flex;
+        align-items: center;
+    }
+
+
 }
 
 
