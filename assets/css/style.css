@@ -34,11 +34,17 @@
     border: 1px solid black;
 }
 
-.phone-flex{
-    display: flex;
-    flex-direction: column ;
-   align-items: center;
+[class^="col-"] {
+    padding: 0.5rem
 }
+
+.phone-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 /*REGION COMMON*/
 
@@ -55,10 +61,9 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+    margin: 0 -2rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
-    gap:5px;
 }
 
 .column {
@@ -118,7 +123,7 @@ img {
 .card-phone {
     padding-bottom: 0px;
     text-align: start;
-    
+
 }
 
 .demo-title {
@@ -146,15 +151,13 @@ img {
     }
 }
 
-
-
 .phone {
-    padding-top:2rem;
+    padding-top: 2rem;
     width: 245px;
-    margin:auto;
+    margin: auto;
 }
 
-.fa-solid-demo{
+.fa-solid-demo {
     color: var(--re-acent);
     font-size: 5rem;
     padding-bottom: 1rem;
@@ -184,21 +187,32 @@ img {
 @media screen and (min-width: 768px) {
     .col-sm-8 {
         width: calc((100% / 12) *8);
+        flex-grow: 2;
     }
 
     .col-md-4 {
         width: calc((100% / 12) *4);
+        flex-grow: 1;
+        align-items: stretch;
     }
 
     .col-sm-6 {
         width: 50%;
     }
+
+
+
 }
 
 
 @media screen and (min-width: 992px) {
     .container {
         width: 65%;
+    }
+
+    .card-phone{
+        display: flex;
+        flex-direction: row;
     }
 }
 
