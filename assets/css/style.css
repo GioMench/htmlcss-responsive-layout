@@ -78,7 +78,7 @@ body {
 
 .card {
     padding: 1.5rem;
-    border-radius: 5%;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -217,8 +217,8 @@ img {
 }
 
 .testimonial{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
 }
 
@@ -246,6 +246,7 @@ img {
 /* RESPONSIVE */
 
 @media screen and (min-width: 768px) {
+
     .col-sm-8 {
         width: calc((100% / 12) *8);
         flex-grow: 2;
@@ -266,6 +267,11 @@ img {
         padding-top:1rem;
     }
 
+    .card-testimonial{
+        flex-direction: row;
+        text-align: start;
+        gap: 2rem;
+    }
 
 
 }
@@ -299,6 +305,7 @@ img {
         align-items: end;
     }
 
+    
 
 }
 
