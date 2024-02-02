@@ -34,6 +34,12 @@
     border: 1px solid black;
 }
 
+.phone-flex{
+    display: flex;
+    flex-direction: column ;
+   align-items: center;
+}
+
 /*REGION COMMON*/
 
 body {
@@ -103,14 +109,15 @@ img {
 
 /*REGION SITE_MAIN*/
 
-.phone-flex{
-    display: flex;
-    flex-direction: column ;
-   align-items: center;
-}
-
 .card-demo {
     background-color: var(--re-primary);
+    text-align: center;
+}
+
+.card-phone {
+    padding-bottom: 0px;
+    text-align: start;
+    
 }
 
 .demo-title {
@@ -138,14 +145,18 @@ img {
     }
 }
 
-.card-phone {
-    padding-bottom: 0px;
-}
+
 
 .phone {
     padding-top:2rem;
     width: 245px;
     margin:auto;
+}
+
+.fa-solid-demo{
+    color: var(--re-acent);
+    font-size: 5rem;
+    padding-bottom: 1rem;
 }
 
 
