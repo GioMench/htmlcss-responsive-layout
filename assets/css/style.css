@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,68 +7,81 @@
 
 /*REGION UTILITY*/
 
-:root{
+:root {
     --re-acent: #0184fc;
-    --re-primary:#b5dcfe;
+    --re-primary: #b5dcfe;
     --re-secondary: #9792e4;
     --re-lighter: #ffffff;
-    --re-free:#f9bf65;
-    --re-dark:#323332;
-    --re-text:#607487;
+    --re-free: #f9bf65;
+    --re-dark: #323332;
+    --re-text: #607487;
 }
 
-.col-4{
+.col-4 {
     width: calc((100% / 12) *4);
 }
 
-.col-6{
+.col-6 {
     width: 50%;
 }
 
-.col-8{
+.col-8 {
     width: calc((100% / 12) *8);
 }
 
-.col-12{
+.col-12 {
     width: 100%;
     border: 1px solid black;
 }
 
 /*REGION COMMON*/
 
-.container{
-    width: 80%;
-    max-width: 1176px;
-    margin:auto;
+body {
+    font-family: 'PT Sans', sans-serif;
 }
 
-.row{
+.container {
+    width: 75%;
+    max-width: 1176px;
+    margin: auto;
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
-    padding-bottom:2rem;
-    padding-top:2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
     margin: 0 -1rem;
     align-items: center;
 }
 
-img{
+.card {
+    padding: 1.5rem;
+    border-radius: 5%;
+}
+
+p {
+    font-size: small;
+}
+
+img {
     display: block;
 }
 
 
 /*REGION SITE_HEADER*/
 
-.menu-color{
+.menu-color {
     background-color: var(--re-acent);
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -76,36 +89,80 @@ img{
     margin: 0 -1rem;
 }
 
-.logo{
+.logo {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.fa-bars{
+.fa-bars {
     color: var(--re-lighter);
     font-size: 1.5rem;
 }
+
 /* END REGION SITE_HEADER*/
 
 /*REGION SITE_MAIN*/
 
+.phone-flex{
+    display: flex;
+    flex-direction: column ;
+   align-items: center;
+}
 
+.card-demo {
+    background-color: var(--re-primary);
+}
+
+.demo-title {
+    color: var(--re-acent);
+    text-align: center;
+}
+
+.text-gray {
+    color: var(--re-text);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.app-store {
+    background-color: var(--re-acent);
+    color: var(--re-lighter);
+    padding: 10px 45px;
+    border: none;
+    border-radius: 20px;
+    font-size: smaller;
+
+    & .fa-apple {
+        padding-right: 5px;
+    }
+}
+
+.card-phone {
+    padding-bottom: 0px;
+}
+
+.phone {
+    padding-top:2rem;
+    width: 245px;
+    margin:auto;
+}
 
 
 /*REGION SITE_FOOTER*/
 
-.foot{
+.foot {
     font-size: small;
     color: var(--re-lighter);
     background-color: var(--re-dark);
 }
 
-.boolean-careers{
+.boolean-careers {
     color: var(--re-secondary);
-  
+
 }
 
-.lorem-footer{
+.lorem-footer {
     text-align: center;
     padding: 1rem 0;
 }
@@ -113,29 +170,29 @@ img{
 /* RESPONSIVE */
 
 @media screen and (min-width: 768px) {
-    .col-sm-8{
+    .col-sm-8 {
         width: calc((100% / 12) *8);
     }
 
-    .col-md-4{
+    .col-md-4 {
         width: calc((100% / 12) *4);
     }
 
-    .col-sm-6{
+    .col-sm-6 {
         width: 50%;
     }
 }
 
 
-@media  screen and (min-width: 992px) {
-   .container{
-    width: 65%;
-   }
+@media screen and (min-width: 992px) {
+    .container {
+        width: 65%;
+    }
 }
 
 
 @media screen and (min-width: 1200px) {
-    .container{
+    .container {
         width: 60%;
     }
 }
