@@ -76,6 +76,7 @@ body {
 .card {
     padding: 1.5rem;
     border-radius: 5%;
+    text-align: center;
 }
 
 p {
@@ -86,7 +87,19 @@ img {
     display: block;
 }
 
+.text-gray {
+    color: var(--re-text);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
 
+.text-white{
+    color: var(--re-lighter);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
 /*REGION SITE_HEADER*/
 
 .menu-color {
@@ -117,7 +130,6 @@ img {
 
 .card-demo {
     background-color: var(--re-primary);
-    text-align: center;
 }
 
 .card-phone {
@@ -129,13 +141,6 @@ img {
 .demo-title {
     color: var(--re-acent);
     text-align: center;
-}
-
-.text-gray {
-    color: var(--re-text);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    line-height: 1.5rem;
 }
 
 .app-store {
@@ -153,7 +158,7 @@ img {
 
 .phone {
     padding-top: 2rem;
-    width: 245px;
+    width: 90%;
     margin: auto;
 }
 
@@ -162,8 +167,33 @@ img {
     font-size: 5rem;
     padding-bottom: 1rem;
 }
+/*AND REGIO DEMO*/
 
+/*REGION STRATEGIC*/
+.strategic{
+    background-color: var(--re-secondary);
+}
 
+.plan-1{
+    width: 90%;
+    margin:auto;
+}
+
+.strategic-title{
+    color: var(--re-lighter);
+    font-size: 2rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+.card-strategic{
+    background-color: var(--re-lighter);
+}
+
+.plan-2{
+    width: 90%;
+    margin:auto;
+}
 /*REGION SITE_FOOTER*/
 
 .foot {
