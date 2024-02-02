@@ -301,6 +301,40 @@ img {
     border-radius: 20px;
     margin-top: 0.5rem;
 }
+/*END REGION ABOUT*/
+
+.started{
+    background-color: var(--re-secondary);
+}
+
+.get-title{
+    color: var(--re-lighter);
+}
+
+.free{
+    color: var(--re-free);
+    font-size: 3rem;
+}
+
+.simple{
+    color: var(--re-lighter);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.get-button{
+    color:var(--re-secondary);
+    background-color: var(--re-lighter);
+    padding: 10px 40px;
+    border:none;
+    border-radius: 25px;
+}
+
+.Copyright{
+    font-size: 0.5rem;
+    color: var(--re-lighter);
+    padding-top: 1rem;
+}
 
 
 /*REGION SITE_FOOTER*/
