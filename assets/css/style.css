@@ -218,7 +218,7 @@ img {
         flex-grow: 2;
     }
 
-    .col-md-4 {
+    .col-sm-4 {
         width: calc((100% / 12) *4);
         flex-grow: 1;
         align-items: stretch;
@@ -234,8 +234,13 @@ img {
 
 
 @media screen and (min-width: 992px) {
+
     .container {
         width: 65%;
+    }
+
+    .col-md-6{
+        width: 50%;
     }
 
     .card-phone{
@@ -253,7 +258,7 @@ img {
 
     .strategic-row{
         display: flex;
-        align-items: center;
+        align-items: end;
     }
 
 
