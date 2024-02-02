@@ -148,6 +148,10 @@ img {
     text-align: center;
 }
 
+.demo-title-1{
+    color: var(--re-acent);
+}
+
 .app-store {
     background-color: var(--re-acent);
     color: var(--re-lighter);
@@ -404,22 +408,21 @@ img {
     }
 
     .phone-flex {
+        height: 100%;
         display: flex;
         flex-direction: row;
-        
-             
+        align-items: normal;
+               
     }
 
     .get-demo{
-        text-align: left;
+        height: 100%;
     }
 
-    -phone{
-        position: absolute;
-        width: 220px;
-        bottom:0;
-        left: 50%;
+    .demo-title-1{
+       text-align:left ; 
     }
+
 
     .strategic-row {
         display: flex;
