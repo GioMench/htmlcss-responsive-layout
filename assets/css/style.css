@@ -209,6 +209,22 @@ img {
     padding-top: 1rem;
 }
 
+.card-testimonial{
+    background-color: var(--re-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.name-testimonial{
+    color: var(--re-lighter);
+}
 /*REGION SITE_FOOTER*/
 
 .foot {
