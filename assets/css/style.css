@@ -58,6 +58,7 @@ body {
     margin: 0 -1rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    gap:5px;
 }
 
 .column {
