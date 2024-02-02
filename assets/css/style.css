@@ -403,14 +403,18 @@ img {
         width: 50%;
     }
 
-    .card-phone {
+    .phone-flex {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        position: relative;
+        
+             
     }
 
-    .phone{
+    .get-demo{
+        text-align: left;
+    }
+
+    -phone{
         position: absolute;
         width: 220px;
         bottom:0;
