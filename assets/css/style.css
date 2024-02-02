@@ -31,7 +31,6 @@
 
 .col-12 {
     width: 100%;
-    border: 1px solid black;
 }
 
 [class^="col-"] {
@@ -59,6 +58,8 @@ body {
     width: 65%;
     max-width: 1176px;
     margin: auto;
+    padding-top: 1rem;
+    padding-bottom:1rem;
 }
 
 .row {
@@ -405,14 +406,15 @@ img {
     .card-phone {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        position: relative;
     }
 
-    .get-demo {
-        padding-bottom: 1.5rem;
-    }
-
-    .phone {
-        padding-bottom: 0;
+    .phone{
+        position: absolute;
+        width: 220px;
+        bottom:0;
+        left: 50%;
     }
 
     .strategic-row {
