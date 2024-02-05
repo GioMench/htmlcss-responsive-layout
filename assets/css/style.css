@@ -59,7 +59,7 @@ body {
     max-width: 1176px;
     margin: auto;
     padding-top: 1rem;
-    padding-bottom:1rem;
+    padding-bottom: 1rem;
 }
 
 .row {
@@ -148,7 +148,7 @@ img {
     text-align: center;
 }
 
-.demo-title-1{
+.demo-title-1 {
     color: var(--re-acent);
 }
 
@@ -209,97 +209,100 @@ img {
 /* END REGION STRATEGIC*/
 
 
-.testimonial-title{
+.testimonial-title {
     color: var(--re-secondary);
     font-size: 2rem;
     padding-top: 1rem;
 }
 
-.card-testimonial{
+.card-testimonial {
     background-color: var(--re-secondary);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.testimonial{
+.testimonial {
     width: 180px;
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.name-testimonial{
+.name-testimonial {
     color: var(--re-lighter);
 }
+
 /*REGION TESTIMONIALS*/
 
-.benefits{
+.benefits {
     background-color: var(--re-secondary);
 }
 
-.card-benefits{
+.card-benefits {
     background-color: var(--re-lighter);
     text-align: left;
 }
-.benefit-title{
+
+.benefit-title {
     color: var(--re-lighter);
     font-size: 2rem;
     padding-top: 1rem;
 }
 
-.n-benefit{
+.n-benefit {
     font-size: 4rem;
     color: var(--re-secondary);
 }
 
-.type-benefit{
+.type-benefit {
     color: var(--re-secondary);
 }
 
-.more{
+.more {
     padding: 8px 35px;
     background-color: var(--re-secondary);
     color: var(--re-lighter);
     border: none;
     border-radius: 20px;
 }
+
 /*END REGION BENEFITS*/
 
-.card-about{
-   text-align: left;
+.card-about {
+    text-align: left;
 }
 
-.about-title{
+.about-title {
     color: var(--re-secondary);
-    font-size: 2.5rem ;
+    font-size: 2.5rem;
 }
 
-.card-about-2{
+.card-about-2 {
     text-align: left;
     position: relative;
 }
 
-.about-image{
-    width:160px;
+.about-image {
+    width: 160px;
     height: 160px;
     border-radius: 50%;
 }
 
-.fa-quote-about{
+.fa-quote-about {
     color: var(--re-secondary);
     font-size: 3rem;
     position: absolute;
-    top:15px;
-    left:138px;
+    top: 15px;
+    left: 138px;
 }
 
-.help-about{
+.help-about {
     color: var(--re-secondary);
     font-size: large;
 }
 
-.find-me{
+.find-me {
     color: var(--re-lighter);
     background-color: var(--re-secondary);
     padding: 5px;
@@ -307,36 +310,37 @@ img {
     border-radius: 20px;
     margin-top: 0.5rem;
 }
+
 /*END REGION ABOUT*/
 
-.started{
+.started {
     background-color: var(--re-secondary);
 }
 
-.get-title{
+.get-title {
     color: var(--re-lighter);
 }
 
-.free{
+.free {
     color: var(--re-free);
     font-size: 3rem;
 }
 
-.simple{
+.simple {
     color: var(--re-lighter);
     font-size: 1.5rem;
     padding: 1rem;
 }
 
-.get-button{
-    color:var(--re-secondary);
+.get-button {
+    color: var(--re-secondary);
     background-color: var(--re-lighter);
     padding: 10px 40px;
-    border:none;
+    border: none;
     border-radius: 25px;
 }
 
-.Copyright{
+.Copyright {
     font-size: 0.5rem;
     color: var(--re-lighter);
     padding-top: 1rem;
@@ -367,24 +371,24 @@ img {
 
     .col-sm-8 {
         width: calc((100% / 12) *8);
-      
+
     }
 
     .col-sm-4 {
         width: calc((100% / 12) *4);
-       
+
     }
 
     .col-sm-6 {
         width: 50%;
     }
 
-    .card-no-pad{
+    .card-no-pad {
         padding: 0;
-        padding-top:1rem;
+        padding-top: 1rem;
     }
 
-    .card-testimonial{
+    .card-testimonial {
         flex-direction: row;
         text-align: start;
         gap: 2rem;
@@ -400,7 +404,7 @@ img {
         width: 65%;
     }
 
-    .col-md-4{
+    .col-md-4 {
         width: calc((100% / 12) *4);
     }
 
@@ -408,33 +412,20 @@ img {
         width: 50%;
     }
 
-    .phone-flex {
-        height: 100%;
-        display: flex;
-        flex-direction: row;      
-    }
 
-    .phone{
-        justify-self: end;
+    .demo-title {
         width: 100%;
-        margin-bottom: 0;
     }
 
-    .get-demo{
-        height: 100%;
-    }
 
-    .demo-title-1{
-       text-align:left ; 
+    .demo-title-1 {
+        text-align: left;
     }
-
 
     .strategic-row {
         display: flex;
         align-items: end;
     }
-
-    
 
 }
 
@@ -443,4 +434,18 @@ img {
     .container {
         width: 60%;
     }
+
+
+    .phone-flex {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .img-phone {
+        align-self: flex-end;
+        width: 100%;
+    }
+
 }
