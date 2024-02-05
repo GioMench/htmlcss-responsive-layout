@@ -226,6 +226,7 @@ img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .name-testimonial{
@@ -410,9 +411,13 @@ img {
     .phone-flex {
         height: 100%;
         display: flex;
-        flex-direction: row;
-        align-items: normal;
-               
+        flex-direction: row;      
+    }
+
+    .phone{
+        justify-self: end;
+        width: 100%;
+        margin-bottom: 0;
     }
 
     .get-demo{
